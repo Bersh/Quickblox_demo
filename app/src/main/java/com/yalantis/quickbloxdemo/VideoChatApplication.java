@@ -7,13 +7,13 @@ import com.quickblox.users.model.QBUser;
 
 public class VideoChatApplication extends Application {
 
-    public static final int FIRST_USER_ID = 65421;
-    public static final String FIRST_USER_LOGIN = "videoChatUser1";
-    public static final String FIRST_USER_PASSWORD = "videoChatUser1pass";
+    public static final int FIRST_USER_ID = 2451262;
+    public static final String FIRST_USER_LOGIN = "TestUser1";
+    public static final String FIRST_USER_PASSWORD = "12345678";
     //
-    public static final int SECOND_USER_ID = 65422;
-    public static final String SECOND_USER_LOGIN = "videoChatUser2";
-    public static final String SECOND_USER_PASSWORD = "videoChatUser2pass";
+    public static final int SECOND_USER_ID = 2451255;
+    public static final String SECOND_USER_LOGIN = "TestUser2";
+    public static final String SECOND_USER_PASSWORD = "12345678";
 
     private QBUser currentUser;
 
@@ -23,7 +23,7 @@ public class VideoChatApplication extends Application {
 
         // Set QuickBlox credentials here
         //
-        QBSettings.getInstance().fastConfigInit("92", "wJHdOcQSxXQGWx5", "BTFsj7Rtt27DAmT");
+        QBSettings.getInstance().fastConfigInit("20408", "fYyxGDhLXHsXtdH", "DCRctLkdU9v3ZKR");
     }
 
     public void setCurrentUser(int userId, String userPassword) {
